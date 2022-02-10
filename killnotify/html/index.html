@@ -1,0 +1,65 @@
+
+
+
+
+<head>
+
+	<meta charset="utf-8">
+
+    <!-- Compiled and minified CSS -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+	<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+
+    <!-- Compiled and minified JavaScript -->
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+	<script src="https://kit.fontawesome.com/67f8f2b923.js" crossorigin="anonymous"></script>
+
+	<link rel='stylesheet' href='main.css'>
+
+</head>
+
+<body>
+
+  <div class="helpnotify">
+
+		<div id="notifytext"></div>
+
+	</div>
+
+    
+
+	<script src="script.js" type="text/javascript">
+    
+    window.addEventListener('message', function(event){
+
+// console.log("Loading main.js")
+var item = event.data;
+
+if (item.Notify === true)
+    {
+        console.log("Item Notify")
+        var msg = item.text;
+        var fadetimer = item.time;
+        var newelement = msg;
+        $('#notifytext').html(newelement);
+        $('#notifytext').fadeIn(500);
+        console.log("notifytext")
+
+        setTimeout(function(){
+            $('#notifytext').fadeOut(fadetimer-(fadetimer / 2));
+        }, fadetimer / 2);
+
+        setTimeout(function(){
+            $('#notifytext').css('display', 'none');
+        }, fadetimer);
+    }
+
+});
+
+    </script>
+
+</body>

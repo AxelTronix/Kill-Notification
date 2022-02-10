@@ -1,0 +1,55 @@
+@font-face {
+  font-family: AXIS;
+  src: url(../fonts/AXIS.ttf);
+}
+
+
+  
+.helpnotify
+{
+  
+  position:absolute;
+  bottom: 300px;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  transition: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+}
+
+#notifytext {
+  transition: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  text-align: center;
+  font-size: 2vh;
+  color: white;
+}
+
+
+
+.colblue {
+  font-size: 2vh;
+  font-family:"Morandi W01";
+  color: rgb(0, 119, 255);
+}
+
+.colpurp {
+  font-size: 2vh;
+  font-family:"Morandi W01";
+  color: rgb(255, 167, 96);
+}
+
+.colpurps {
+  font-size: 2vh;
+  font-family:"Morandi W01";
+  color: rgb(255, 44, 44);
+}
+
+
+
+
+
