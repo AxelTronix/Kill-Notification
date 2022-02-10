@@ -3,7 +3,7 @@
 [banner]: https://cdn.discordapp.com/attachments/800195998235623425/941343857344401448/KILLNOTIFICATION.png
 [website]: https://tronix.dev
 
-
+# Kill Notification
 ```
  Kids want to dump servers and take my kill notification from other servers, So here it is for free 
 ```
