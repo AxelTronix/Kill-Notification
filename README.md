@@ -4,9 +4,10 @@
 [website]: https://tronix.dev
 
 
-
-> **Kids want to dump servers and take my kill notification from other servers, So here it is for free **
-
+```
+ Kids want to dump servers and take my kill notification from other servers, So here it is for free 
+```
+<br>
 # Features
 - Runs at 0.00ms.
 - Responsive UI.
