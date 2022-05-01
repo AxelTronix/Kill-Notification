@@ -5,7 +5,7 @@ end)
 
 
 
-RegisterNetEvent('sv:kill:message')
+RegisterServerEvent('sv:kill:message')
 AddEventHandler('sv:kill:message', function(killer)
     local src = source
     local name = nil
