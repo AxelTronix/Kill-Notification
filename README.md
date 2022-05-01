@@ -12,9 +12,6 @@
 - Runs at 0.00ms.
 - Responsive UI.
 
-# How does it work?
-You type in /crosshairUI Which then opens a Clean UI Design and you can select which Crosshair you want (Set by the owner in config) /or set your own Custom Crosshair.
-
 ### Installation
 1. Drop killnotify into Resources
 2. add start killnotify to your server.cfg
