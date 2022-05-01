@@ -2,7 +2,7 @@
 
 
 AddEventHandler('baseevents:onPlayerKilled', function(killerId, data)
-      TriggerServerEvent("sv:kill:message", killerId)
+      TriggerServerEvent('sv:kill:message', killerId)
   end)
   
   
