@@ -11,5 +11,7 @@ server_scripts {
 }
 
 files {
-  'html/*'
+  'html/index.html',
+  'html/main.css'
+  'html/fonts/*'
 }
